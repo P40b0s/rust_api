@@ -1,0 +1,11 @@
+[package]
+name = "rust_api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+tokenizer = { git="https://github.com/P40b0s/tokenizer", branch = "master"}
+serde= {version = "1.0.137", features = ["derive"]}
